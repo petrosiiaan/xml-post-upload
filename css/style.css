@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    margin-left: 51px;
+}
+
+.fileUpload__uploadBtn {
+    margin-top: 10px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    width: 300px;
+    cursor: pointer;
+    background: rgba(43, 135, 240);
+    color: #ffff;
+    transition: 0.4s ease;
+}
+
+
+.fileUpload__uploadBtn:hover {
+    background: rgb(0, 78, 167);
+}
+
+.progressBar {
+    margin-top: 10px;
+    height: 15px;
+    border: 1px solid rgb(0, 82, 177);
+    width: 250px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+}
+
+.progressBar__fill {
+    height: 100%;
+    border-radius: 999px;
+    background: lightblue;
+    transition: 1s ease;
+}
+
+
+.fileUpload__images {
+    margin: 40px;
+}

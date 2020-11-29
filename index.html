@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>File Upload XHR</title>
+</head>
+<body>
+    <div class="fileUpload">
+        <input type="file" id="fileInput" multiple accept="*/*" style="display: none;"><br>
+        <label for="fileInput">
+            <img src="https://www.nicepng.com/png/detail/129-1298352_upload-icon-logo-upload-file-png.png" width="400px" />
+        </label>
+        <div class="btn">
+            <button class="fileUpload__uploadBtn">Upload Files</button>
+        </div>
+        <div class="fileUpload__images"></div>
+    </div>
+
+    <!-- <div class="progressBar">
+        <div class="progressBar__fill"></div>
+    </div> -->
+    <script src="request.js"></script>
+</body>
+</html>
